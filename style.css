@@ -76,9 +76,6 @@ body input{
     font-family: 'Courier New', Courier, monospace;
     font-weight:bolder;
 } 
-#button:hover{
-    background-color: rgb(248, 221, 16);
-}
 #source_code{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
@@ -108,4 +105,14 @@ border-radius: 5px;
 #load_page.done_load{
     top:-100vh;
     transition-duration: 0.3s;
+}
+@media (min-width:900px){
+    #button:hover{
+        background-color: rgb(248, 221, 16);
+    }
+}
+@media (max-width:900px){
+    #load_page{
+        display:none;
+    }
 }
