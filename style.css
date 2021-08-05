@@ -30,15 +30,15 @@ body input{
     font-weight: bolder;
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 #input div{
     height:40px;
-    width:80px;
     text-align: center;
 }
 #title div{
     height:40px;
-    width:118px;
+    width:170px;
     border:none;
     text-align: center;
     font-size: 25px;
