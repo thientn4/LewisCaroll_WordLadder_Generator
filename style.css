@@ -23,6 +23,7 @@ body input{
     font-weight:bold;
 }
 #input, #title{
+    width:388px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 35px;
     color:white;
