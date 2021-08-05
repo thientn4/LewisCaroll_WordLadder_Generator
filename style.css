@@ -3,7 +3,8 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    height:95vh;
 }
 body div{
     background-color: rgb(247, 192, 91);
