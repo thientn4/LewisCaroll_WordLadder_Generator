@@ -37,8 +37,8 @@ body input{
     text-align: center;
 }
 #title div{
+    width:155px;
     height:40px;
-    width:170px;
     border:none;
     text-align: center;
     font-size: 25px;
