@@ -114,3 +114,8 @@ border-radius: 5px;
         background-color: rgb(247, 240, 240);
     }
 }
+@media (max-width:900px){
+    #load_pic{
+        display:none;
+    }
+}
